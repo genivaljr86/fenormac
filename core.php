@@ -2,13 +2,13 @@
 // ==================================== DADOS INICIAIS DO SITE ==================================== 
 
 //Nome do Site
-$core_nome     = "FENOMAC";
+$core_nome     = "FENORMAC";
 //Descrição do Site
 $core_desc     ="Site da Feira FENOMAC";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
 $core_keywords ="FENOMAC, FEIRA"; 
 //Pasta do projeto
-$core_pasta    ="FENOMAC";
+$core_pasta    ="fenormac";
 //E-mail para recebimento das mensagens via site
 $core_email    ="genival@talentodesign.com.br"; 
 

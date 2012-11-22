@@ -42,7 +42,7 @@ $(document).ready(function(){
 				data: dados,
 				cache: false,
 				success: function(){
-					$("#contato_enviando p").html('<center><img src="../images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
+					$("#contato_enviando p").html('<center><img src="images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
 					$("#contato_enviando h3").html('Mensagem Enviada');
 					$("input:text, textarea").val("");
 					setTimeout(some,2000);
@@ -52,7 +52,12 @@ $(document).ready(function(){
 		}
 		return false;
 		});
-	
+		
+	$("#header ul li a").click(function(){
+			var destino= $(this).attr("href");
+			$(destino).slideto({highlight: false});		
+			return false
+			});
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	

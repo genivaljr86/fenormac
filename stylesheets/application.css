@@ -3,6 +3,10 @@
 /* Import style sheets, hiding from IE/Mac \*/
 /* End of import hide */
 /* GERAL */
+body {
+  background: url(../images/fundo_body.png);
+  font-family: Verdana;
+}
 body .centraliza {
   width: 1000px;
   margin: 0 auto;
@@ -24,6 +28,99 @@ body .separator {
 #header {
   height: 84px;
   background-color: #764121;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 1px 11px 0px #000000;
+  -webkit-box-shadow: 0px 1px 11px 0px #000000;
+  -moz-box-shadow: 0px 1px 11px 0px #000000;
+}
+#header ul {
+  float: left;
+  margin: 32px 0 0 53px;
+}
+#header ul li {
+  display: inline;
+  margin-right: 20px;
+}
+#header #redes {
+  float: right;
+  padding: 30px 120px 0 0;
 }
 /* FOOTER */
+#footer {
+  height: 94px;
+  background-color: #8f200b;
+}
+#footer #creditos {
+  float: left;
+  margin: 26px 0 0 82px;
+  color: white;
+}
 /* CONTEUDO */
+#content #espaco {
+  height: 84px;
+}
+#content .conteudo {
+  width: 839px;
+}
+#content #home {
+  background: url(../images/bk_dark.png);
+}
+#content #home .coluna {
+  float: left;
+}
+#content #home #logo {
+  padding: 58px 0 0 88px;
+}
+#content #home #video {
+  margin: 33px 0 0 77px;
+  width: 508px;
+  height: 348px;
+  background: url(../images/home/video.png) no-repeat;
+}
+#content #home .info {
+  width: 308px;
+  height: 779px;
+  margin-left: 57px;
+  background: url(../images/home/info_bk.png) no-repeat;
+}
+#content #afenor {
+  background: url(../images/bk_light.png);
+}
+#content #afenor .conteudo {
+  height: 873px;
+  margin-left: 76px;
+  background: url(../images/afenor/bk.png);
+}
+#content #outras {
+  background: url(../images/bk_dark.png);
+}
+#content #outras .conteudo {
+  height: 906px;
+  margin-left: 76px;
+  background: url(../images/outras/bk.png);
+}
+#content #galeria {
+  background: url(../images/bk_light.png);
+}
+#content #galeria .conteudo {
+  height: 906px;
+  margin-left: 76px;
+  background: url(../images/galeria/bk.png);
+}
+#content #downloads {
+  background: url(../images/bk_dark.png);
+}
+#content #downloads .conteudo {
+  height: 904px;
+  margin-left: 76px;
+  background: url(../images/downloads/bk.png);
+}
+#content #contato {
+  background: url(../images/bk_red.png);
+}
+#content #contato .conteudo {
+  height: 904px;
+  margin-left: 76px;
+  background: url(../images/contato/bk.png);
+}

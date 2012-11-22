@@ -2,7 +2,14 @@
 @import url("reset.css");
 /* End of import hide */
 /* GERAL */
+.box-shadow(@style, @c) {
+  box-shadow:         @style @c;
+  -webkit-box-shadow: @style @c;
+  -moz-box-shadow:    @style @c;
+}
 body{
+    background:url(../images/fundo_body.png);
+    font-family:Verdana;
     .centraliza{
     	width:1000px;
     	margin:0 auto;
@@ -23,10 +30,101 @@ body{
 #header{
     height:84px;
     background-color:#764121;
+    position:fixed;
+    width:100%;
+    .box-shadow(0px 1px 11px 0px, #000);
+    ul{
+        float:left;
+        margin:32px 0 0 53px;
+        li{
+            display:inline;
+            margin-right:20px;
+            }
+        }
+    #redes{
+        float:right;
+        padding:30px 120px 0 0;
+        }
 	}
 /* FOOTER */
 #footer{
+    height:94px;
+    background-color:#8f200b;
+    #creditos{
+        float:left;
+        margin:26px 0 0 82px;
+        color:white;
+        }
 	}
 /* CONTEUDO */
 #content{
+    #espaco{
+        height:84px;        
+        }
+    .conteudo{
+        width:839px;
+        }
+    #home{
+        background:url(../images/bk_dark.png);
+        .coluna{
+            float:left;
+            }
+        #logo{
+            padding:58px 0 0 88px;
+            }
+        #video{
+            margin:33px 0 0 77px;
+            width:508px;
+            height:348px;
+            background:url(../images/home/video.png) no-repeat;
+            }
+        .info{
+            width:308px;
+            height:779px;
+            margin-left:57px;
+            background:url(../images/home/info_bk.png) no-repeat;
+            }
+        }
+    #afenor{
+        background:url(../images/bk_light.png);
+        .conteudo{
+            height:873px;
+            margin-left:76px;
+            background:url(../images/afenor/bk.png);
+            
+            }
+        }
+    #outras{
+        background:url(../images/bk_dark.png);
+        .conteudo{
+            height:906px;
+            margin-left:76px;
+            background:url(../images/outras/bk.png);
+            
+            }
+        }
+    #galeria{
+        background:url(../images/bk_light.png);
+        .conteudo{
+            height:906px;
+            margin-left:76px;
+            background:url(../images/galeria/bk.png);
+            }
+        }
+    #downloads{
+        background:url(../images/bk_dark.png);
+        .conteudo{
+            height:904px;
+            margin-left:76px;
+            background:url(../images/downloads/bk.png);
+            }
+        }
+    #contato{
+        background:url(../images/bk_red.png);
+        .conteudo{
+            height:904px;
+            margin-left:76px;
+            background:url(../images/contato/bk.png);
+            }
+        }
 	}
