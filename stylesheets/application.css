@@ -6,6 +6,8 @@
 body {
   background: url(../images/fundo_body.png);
   font-family: Verdana;
+  color: white;
+  font-size: 15px;
 }
 body .centraliza {
   width: 1000px;
@@ -30,6 +32,7 @@ body .separator {
   background-color: #764121;
   position: fixed;
   width: 100%;
+  z-index: 200;
   box-shadow: 0px 1px 11px 0px #000000;
   -webkit-box-shadow: 0px 1px 11px 0px #000000;
   -moz-box-shadow: 0px 1px 11px 0px #000000;
@@ -50,6 +53,7 @@ body .separator {
 #footer {
   height: 94px;
   background-color: #8f200b;
+  font-size: 12px;
 }
 #footer #creditos {
   float: left;
@@ -78,11 +82,24 @@ body .separator {
   height: 348px;
   background: url(../images/home/video.png) no-repeat;
 }
+#content #home #video iframe {
+  border: 5px solid #cb6901;
+  margin: 50px 0 0 56px;
+}
 #content #home .info {
   width: 308px;
   height: 779px;
   margin-left: 57px;
   background: url(../images/home/info_bk.png) no-repeat;
+}
+#content #home #twitter {
+  width: 166px;
+  height: 142px;
+  margin: 316px 0 0 115px;
+  overflow: hidden;
+}
+#content #home #face {
+  margin: 35px 0 0 108px;
 }
 #content #afenor {
   background: url(../images/bk_light.png);
@@ -92,6 +109,22 @@ body .separator {
   margin-left: 76px;
   background: url(../images/afenor/bk.png);
 }
+#content #afenor .conteudo .txt {
+  float: left;
+  width: 404px;
+  margin: 273px 0 0 48px;
+}
+#content #afenor .conteudo .txt p {
+  margin-bottom: 10px;
+}
+#content #afenor .conteudo .imagens {
+  float: left;
+  margin: 256px 0 0 60px;
+}
+#content #afenor .conteudo .imagens img {
+  width: 276px;
+  height: 161px;
+}
 #content #outras {
   background: url(../images/bk_dark.png);
 }
@@ -99,6 +132,33 @@ body .separator {
   height: 906px;
   margin-left: 76px;
   background: url(../images/outras/bk.png);
+}
+#content #outras .conteudo .txt {
+  padding: 242px 60px 0 60px;
+}
+#content #outras .conteudo .menu {
+  width: 631px;
+  height: 522px;
+  margin: 90px 0 0 133px;
+}
+#content #outras .conteudo .menu #i2011 {
+  margin-left: 48px;
+}
+#content #outras .conteudo .menu #i2009 {
+  margin-left: 55px;
+}
+#content #outras .conteudo .menu #i2007,
+#content #outras .conteudo .menu #i2005 {
+  margin-top: 85px;
+}
+#content #outras .conteudo .menu #i2007 {
+  margin-left: 113px;
+}
+#content #outras .conteudo .menu #i2005 {
+  margin-left: 50px;
+}
+#content #outras .conteudo .fotos {
+  display: none;
 }
 #content #galeria {
   background: url(../images/bk_light.png);
@@ -108,6 +168,16 @@ body .separator {
   margin-left: 76px;
   background: url(../images/galeria/bk.png);
 }
+#content #galeria .conteudo .imagens {
+  padding: 305px 0 0 64px;
+}
+#content #galeria .conteudo .imagens img {
+  float: left;
+  width: 167px;
+  height: 128px;
+  border: 3px solid #fcaf0b;
+  margin: 0 0 10px 10px;
+}
 #content #downloads {
   background: url(../images/bk_dark.png);
 }
@@ -116,6 +186,22 @@ body .separator {
   margin-left: 76px;
   background: url(../images/downloads/bk.png);
 }
+#content #downloads .conteudo #itens {
+  width: 702px;
+  height: 338px;
+  padding-top: 352px;
+  background: url(../images/downloads/texto.png) no-repeat bottom;
+  text-align: right;
+}
+#content #downloads .conteudo #itens .i1 {
+  margin-top: 22px;
+}
+#content #downloads .conteudo #itens .i2 {
+  margin-top: 82px;
+}
+#content #downloads .conteudo #itens .i3 {
+  margin-top: 99px;
+}
 #content #contato {
   background: url(../images/bk_red.png);
 }
@@ -123,4 +209,30 @@ body .separator {
   height: 904px;
   margin-left: 76px;
   background: url(../images/contato/bk.png);
+}
+#content #contato .conteudo .txt {
+  padding: 242px 60px 0 60px;
+}
+#content #contato .conteudo form {
+  width: 478px;
+  margin-top: 30px;
+}
+#content #contato .conteudo form label img {
+  margin: 10px 0;
+}
+#content #contato .conteudo form textarea {
+  width: 466px;
+  padding: 5px 5px;
+  height: 200px;
+  background-color: #ce624d;
+  border: none;
+  outline: none;
+}
+#content #contato .conteudo form input[type=text] {
+  width: 466px;
+  padding: 0 5px;
+  height: 38px;
+  background-color: #ce624d;
+  border: none;
+  outline: none;
 }

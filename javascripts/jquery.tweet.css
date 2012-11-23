@@ -1,0 +1,51 @@
+.tweet,
+.query {
+	font: 120% Georgia, serif;
+	color: white;
+}
+.tweet_join{
+	color:#f6ae68;
+	}
+.tweet_time{
+	color:#f6ae68;
+	}
+.tweet_text{
+	color:white;
+	font-size:11px;
+	}
+	.tweet_list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow-y: hidden;
+		padding-top:0;
+	}
+	
+		.tweet_list .awesome,
+		.tweet_list .epic {
+			text-transform: uppercase;
+		}
+		
+		.tweet_list li {
+			overflow-y: auto;
+			overflow-x: hidden;
+			padding: 0.5em;
+			list-style-type: none;
+		}
+		
+			.tweet_list li a {
+				color:#f6ae68;
+				font-size:11px;
+			}
+		
+		.tweet_list .tweet_even {
+			border-top:1px #70d004 solid;
+		}
+		
+		.tweet_list .tweet_avatar {
+			padding-right: .5em; float: left;
+		}
+		
+			.tweet_list .tweet_avatar img {
+				vertical-align: middle;
+			}

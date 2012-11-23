@@ -1,4 +1,4 @@
-     <div class="modal hide" id="contato_vazio" style="display:none">
+     <div class="modal hide" id="contato_vazio" style="display:none;color:black;">
     	<div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal">×</button>
 	    	<h3>Campos vazios</h3>
@@ -11,7 +11,7 @@
   		</div>
 	</div>
     
-    <div class="modal hide" id="contato_enviando" style="display:none">
+    <div class="modal hide" id="contato_enviando" style="display:none;color:black;">
     	<div class="modal-header">
 	    	<h3>Enviando sua mensagem...</h3>
   		</div>

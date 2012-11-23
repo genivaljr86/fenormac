@@ -4,9 +4,9 @@
 //Nome do Site
 $core_nome     = "FENORMAC";
 //Descrição do Site
-$core_desc     ="Site da Feira FENOMAC";
+$core_desc     ="Feira Norte de Materiais de Construção";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
-$core_keywords ="FENOMAC, FEIRA"; 
+$core_keywords ="FENOMAC, FEIRA, MATERIAIS DE CONSTRUÇÃO, NORTE"; 
 //Pasta do projeto
 $core_pasta    ="fenormac";
 //E-mail para recebimento das mensagens via site

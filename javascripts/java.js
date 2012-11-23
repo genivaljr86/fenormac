@@ -38,7 +38,7 @@ $(document).ready(function(){
 			$('#contato_enviando').modal("show");
 			$.ajax({
 				type: "POST",
-				url: "../mail_contato.php",
+				url: "mail_contato.php",
 				data: dados,
 				cache: false,
 				success: function(){
@@ -58,7 +58,15 @@ $(document).ready(function(){
 			$(destino).slideto({highlight: false});		
 			return false
 			});
+  	/*---------------TWITTER-------------------*/
+
+	$("#twits").tweet({template: "{text}{time}"});
+		
+	
+
+	
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
+	
 	
 });
