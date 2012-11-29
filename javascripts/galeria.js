@@ -1,6 +1,67 @@
 $(document).ready(function(){
 	/*---------------GALERIA-------------------*/
-	var pg = 1;
+	var pg=1;
+	var popup=function(){
+			$('#galeria .paginacao span').click(function(){
+				var valor=$(this).attr('class');
+				if(valor =="proximo"){
+					pg++;
+					}
+				else{
+					pg--;
+					}
+					$('#galeria .conteudo').load("galeria.php?pg="+pg,function(){
+						$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:" ",deeplinking: false});
+						$('.botao').not(".current").hover(
+							function(){
+								var end= $(this).attr('src');
+								var hov = end.replace('_off.','_on.');
+								$(this).attr('src', hov);
+								},
+							function(){
+								var end= $(this).attr('src');
+								var hov = end.replace('_on.','_off.');
+								$(this).attr('src', hov);
+								}		  
+						);
+						setTimeout(popup,100);
+						});
+				return false;
+				});
+			};
+			
+	$('#galeria .conteudo').load("galeria.php",function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:" ",deeplinking: false});
+		$('#galeria .paginacao span').click(function(){
+			var valor=$(this).attr('class');
+			if(valor =="proximo"){
+				pg++;
+				}
+			else{
+				pg--;
+				}
+				$('#galeria .conteudo').load("galeria.php?pg="+pg,function(){
+					$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:" ",deeplinking: false});
+					$('.botao').not(".current").hover(
+							function(){
+								var end= $(this).attr('src');
+								var hov = end.replace('_off.','_on.');
+								$(this).attr('src', hov);
+								},
+							function(){
+								var end= $(this).attr('src');
+								var hov = end.replace('_on.','_off.');
+								$(this).attr('src', hov);
+								}		  
+						);
+					setTimeout(popup,100);
+					});
+			return false;
+			});
+		});
+	
+	
+	/*var pg = 1;
     $.ajax({
         url : "galeria.php",
 		type: "GET",
@@ -40,5 +101,5 @@ $(document).ready(function(){
 		
 			});
 		return false;
-		});
+		});*/
 });

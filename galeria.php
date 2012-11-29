@@ -10,7 +10,8 @@ $j="";
 foreach($links as $link){
 	$url=$link_pasta.$link->id.'.'.$link->ext;
 	$desc=$link->description;
-	$imgs[]=array("links"=>$url,"desc"=>$desc);
+//  $imgs[]=array("links"=>$url,"desc"=>$desc);
+	$imgs[]='<a href="'.$url.'"rel="prettyPhoto" title="'.$desc.'"><img src="'.$url.'" alt=""></a>';
 	$j++;
 	}
 //Numero de Imagens por Página
@@ -31,12 +32,24 @@ $paginacao->set_pg_atual($pg2802);   //... a pagina atual.
 $inicio=($pg2802*$imgpg)-$imgpg;  	 //Definindo inicio do loop...
 $limite=$inicio+$imgpg;				 //... e o fim.
 
+echo '<div class="imagens">';
+for($i=$inicio; $i<$limite;$i++){
+	echo $imgs[$i];
+	}
+echo '</div>';
+/*
 $saida=array();
 for($i=$inicio; $i<$limite;$i++){
 	$saida[]= $imgs[$i];
 	}
 $json = json_encode($saida);
-//$json = json_encode($imgs);
-echo $json;
-
+*/
 ?>
+<div class="separator"></div>
+<div class="paginacao centraliza">
+<?php if($paginacao->has_anterior()){ ?>	
+	<span class="anterior"><img src="images/galeria/ant_on.png" alt="" class="botao" title="Anterior"></span>
+<?php }if($paginacao->has_proximo()){ ?>	
+	<span class="proximo"><img src="images/galeria/prox_off.png" alt="" class="botao" title="Próxima"></span>
+<?php } ?>
+</div>

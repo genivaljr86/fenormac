@@ -28,7 +28,7 @@
                 	<div id="face">
                     	<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US"></script>
 					<script type="text/javascript">FB.init("");</script>
-                    <fb:fan profile_id="480710831980230" stream="0" connections="10" width="170px" height="280px" header="0" logobar="0"   css="http://testelw.engenharia.ws/stylesheets/fb_fn.css?2"></fb:fan> 
+                    <fb:fan profile_id="480710831980230" stream="0" connections="10" width="170px" height="280px" header="0" logobar="0"   css="http://testelw.engenharia.ws/stylesheets/fb_fn.css?2"></fb:fan>
                     </div>
                 </div>
                 <div class="separator"></div>
@@ -81,14 +81,7 @@
         <div id="galeria">
         	<div class="centraliza">
         		<div class="conteudo">
-                	<div class="imagens">
-                    	asdasdsad
-                    </div>
-                    <div class="paginacao">
-                    	<a href="" class="anterior">Anterior</a><br>
-                        <a href="" class="proximo">Próximo</a>
                     
-                    </div>
                 
                 </div>
         	</div>

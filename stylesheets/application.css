@@ -26,6 +26,9 @@ body a:hover {
 body .separator {
   clear: both;
 }
+body .pp_pic_holder {
+  color: black;
+}
 /* HEADER */
 #header {
   height: 84px;
@@ -161,6 +164,7 @@ body .separator {
   display: none;
 }
 #content #galeria {
+  color: black;
   background: url(../images/bk_light.png);
 }
 #content #galeria .conteudo {
@@ -177,6 +181,18 @@ body .separator {
   height: 128px;
   border: 3px solid #fcaf0b;
   margin: 0 0 10px 10px;
+}
+#content #galeria .conteudo .paginacao {
+  width: 724px;
+  height: 33px;
+  background: url(../images/galeria/pg_bk.png);
+  text-align: center;
+}
+#content #galeria .conteudo .paginacao span {
+  cursor: pointer;
+}
+#content #galeria .conteudo .paginacao span img {
+  display: inline;
 }
 #content #downloads {
   background: url(../images/bk_dark.png);
