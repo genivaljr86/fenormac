@@ -90,8 +90,8 @@
         	<div class="centraliza">
         		<div class="conteudo">
                 	<div id="itens" class="centraliza">
-                    	<a href=""><img src="images/downloads/bt_off.jpg" alt="" class="botao i1"></a><br>
-                    	<a href=""><img src="images/downloads/bt_off.jpg" alt="" class="botao i2"></a><br>
+                    	<a href="docs/PLANTA-FENORMAC-2013.xls"><img src="images/downloads/bt_off.jpg" alt="" class="botao i1"></a><br>
+                    	<a href="docs/Autorizacao-FENORMAC-2013.doc"><img src="images/downloads/bt_off.jpg" alt="" class="botao i2"></a><br>
                     	<a href=""><img src="images/downloads/bt_off.jpg" alt="" class="botao i3"></a>
                     </div>
                 </div>
