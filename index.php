@@ -5,7 +5,8 @@
     <div id="header">
     	<div class="centraliza">
 		<?php include("menu.php");  ?>
-            <div id="redes">
+        	<a href="http://www.sindmaco.com.br" target="_blank"/><img src="<?php servidor(); ?>images/sindmaco.jpg" alt="" id="logo_sindmaco"></a>
+            <div id="redes">           		
             	<a href=""><img src="images/face_off.png" alt="" class="botao"></a>
                 <a href=""><img src="images/tt_off.png" alt="" class="botao"></a>
             </div>
@@ -21,7 +22,7 @@
                     	<iframe width="373" height="280" src="http://www.youtube.com/embed/gHUEWG_TEiQ" frameborder="0" allowfullscreen></iframe>
                     </div>
 	            </div>
-	    		<div class="coluna info">
+	    		<div class="coluna info">                	
                 	<div id="twitter">
                     	<div id="twits"></div>
                     </div>

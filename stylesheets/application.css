@@ -48,9 +48,15 @@ body .pp_pic_holder {
   display: inline;
   margin-right: 20px;
 }
+#header #logo_sindmaco {
+  float: right;
+  margin-right: 156px;
+  margin-top: 20px;
+}
 #header #redes {
   float: right;
   padding: 30px 120px 0 0;
+  margin-right: -380px;
 }
 /* FOOTER */
 #footer {
