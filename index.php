@@ -124,18 +124,27 @@
                     </form>
                 </div>
         	</div>
-        </div>
+        </div>       
+      
+        
     </div>
-    <div id="footer">
-    	<div class="centraliza">
-        	<div id="creditos">
-	            SINDIMACO <br>
-	            Av. Tavares Bastos, 154 - Souza - Belém - Pará  CEP: <br>
-	            66.613-140 Fone/Fax: (91) 3242-1215 / 3224-5619
-            </div>
-        	
-        </div>
+    <div id="footer_title"><img src="images/expositores.png" alt=""></div></div>    
+    <div id="expositores_conteudo">    
+    
     </div>
+    
+    <div id="footer_title"><img src="<?php servidor(); ?>images/patrocinadores.png" alt=""></div>
+    <div id="patrocinadores_conteudo">
+    
+    </div>
+    
+    <div id="footer_title">
+    <img src="<?php servidor(); ?>images/realizacao.png" alt="">
+    <img src="<?php servidor(); ?>images/organizacao.png" alt="" id="organizacao">
+    </div>
+    <div id="realizacao_conteudo">
+    </div>
+    
     <?php include("contato_msg.php"); ?>
     <script type="text/javascript">
     /*-------------- Pop Up Imagens ------------------*/
