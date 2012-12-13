@@ -128,19 +128,31 @@
       
         
     </div>
-    <div id="footer_title"><img src="images/expositores.png" alt=""></div></div>    
+    <div id="footer_title" >
+        <div class="centraliza">
+            <img src="images/expositores.png" alt="">
+        </div>
+        
+    </div>   
     <div id="expositores_conteudo">    
-    
     </div>
     
-    <div id="footer_title"><img src="<?php servidor(); ?>images/patrocinadores.png" alt=""></div>
+    <div id="footer_title">
+        <div class="centraliza">
+            <img src="<?php servidor(); ?>images/patrocinadores.png" alt="">
+        </div>
+    </div>
+    
     <div id="patrocinadores_conteudo">
     
     </div>
     
     <div id="footer_title">
-    <img src="<?php servidor(); ?>images/realizacao.png" alt="">
-    <img src="<?php servidor(); ?>images/organizacao.png" alt="" id="organizacao">
+        <div class="centraliza">
+            <img src="<?php servidor(); ?>images/realizacao.png" alt="">
+            <img src="<?php servidor(); ?>images/organizacao.png" alt="" id="organizacao">  
+        </div>
+    
     </div>
     <div id="realizacao_conteudo">
     </div>
