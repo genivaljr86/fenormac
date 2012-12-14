@@ -27,6 +27,7 @@
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/jquery.tweet.css" media="all">
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/prettyPhoto.css" media="all">
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jcarousellite_1.0.1.min.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.linkify-1.0.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.cycle.all.js"></script>

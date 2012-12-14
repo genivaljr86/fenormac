@@ -74,7 +74,16 @@ body .pp_pic_holder {
 }
 #expositores_conteudo {
   background-color: #fff;
-  height: 260px;
+  height: 350px;
+}
+#expositores_conteudo #content {
+  padding-left: 200px;
+  padding-top: 10px;
+}
+#expositores_conteudo #content img {
+  margin: 1px;
+  align: center;
+  border: solid 2px #961a02 ;
 }
 #patrocinadores_conteudo {
   background-color: #fff;

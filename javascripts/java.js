@@ -61,12 +61,22 @@ $(document).ready(function(){
   	/*---------------TWITTER-------------------*/
 
 	$("#twits").tweet({template: "{text}{time}"});
+	});
+	
+	/* ------------ EXPOSITORES CARROUSEL ---------------------*/
+  $(window).load( function(){	
+  	$(".slide").jCarouselLite({
+      	btnNext: ".prox",
+      	btnPrev: ".prev",
+      	vertical: true,
+  		speed:800
+  	});
 		
 	
 
 	
 	/* ------------ SLIDE JCYCLE ---------------------*/	
-	$("#slider").cycle({fx:"fade"});
+	$("#slide").cycle({fx:"scrollLeft"});
 	
 	
 });

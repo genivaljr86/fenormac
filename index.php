@@ -132,7 +132,81 @@
         </div>
         
     </div>   
-    <div id="expositores_conteudo">    
+    <div id="expositores_conteudo">  
+    	<div id="content" class="centraliza"> 	
+		    <div id="slide">
+	        	<div>
+		            <img src="images/logos_expositores/1.jpg" alt="">
+		            <img src="images/logos_expositores/2.jpg" alt="">
+		            <img src="images/logos_expositores/3.jpg" alt="">
+		            <img src="images/logos_expositores/4.jpg" alt="">
+                </div>
+		            
+	            
+	            
+	            <div>
+                  	<img src="images/logos_expositores/5.jpg" alt="">
+		            <img src="images/logos_expositores/6.jpg" alt="">
+		            <img src="images/logos_expositores/7.jpg" alt="">
+		            <img src="images/logos_expositores/8.jpg" alt="">		            
+	            </div>
+                
+                 <div>
+                 	<img src="images/logos_expositores/9.jpg" alt="">
+		            <img src="images/logos_expositores/10.jpg" alt="">
+		            <img src="images/logos_expositores/11.jpg" alt="">
+		            <img src="images/logos_expositores/12.jpg" alt="">	            
+	            </div>
+                
+                 <div>
+                 	<img src="images/logos_expositores/13.jpg" alt="">
+		            <img src="images/logos_expositores/14.jpg" alt="">
+		            <img src="images/logos_expositores/15.jpg" alt="">
+		            <img src="images/logos_expositores/16.jpg" alt="">            
+	            </div>
+                
+                <div>
+                	<img src="images/logos_expositores/17.jpg" alt="">
+		            <img src="images/logos_expositores/18.jpg" alt="">
+		            <img src="images/logos_expositores/19.jpg" alt="">
+		            <img src="images/logos_expositores/20.jpg" alt="">
+  	            </div>
+                
+                <div>
+                	<img src="images/logos_expositores/21.jpg" alt="">
+		            <img src="images/logos_expositores/22.jpg" alt="">
+		            <img src="images/logos_expositores/23.jpg" alt="">
+		            <img src="images/logos_expositores/24.jpg" alt="">
+	            </div>
+                
+                <div>
+                	<img src="images/logos_expositores/25.jpg" alt="">
+		            <img src="images/logos_expositores/26.jpg" alt="">
+		            <img src="images/logos_expositores/27.jpg" alt="">
+		            <img src="images/logos_expositores/28.jpg" alt="">
+	            </div>
+                
+                <div>
+                	<img src="images/logos_expositores/29.jpg" alt="">
+		            <img src="images/logos_expositores/30.jpg" alt="">
+		            <img src="images/logos_expositores/31.jpg" alt="">
+		            <img src="images/logos_expositores/32.jpg" alt="">
+				</div>
+                
+                <div>
+                	<img src="images/logos_expositores/33.jpg" alt="">
+		            <img src="images/logos_expositores/34.jpg" alt="">
+		            <img src="images/logos_expositores/35.jpg" alt="">
+		            <img src="images/logos_expositores/36.jpg" alt="">
+                </div>
+                
+                <div>
+                	<img src="images/logos_expositores/37.jpg" alt="">	                
+                </div>
+            
+           </div>
+	    
+    
     </div>
     
     <div id="footer_title">
@@ -142,6 +216,8 @@
     </div>
     
     <div id="patrocinadores_conteudo">
+	    
+	</div>
     
     </div>
     
@@ -162,4 +238,3 @@
 	</script>
   </body>
 </html>
-
