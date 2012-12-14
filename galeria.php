@@ -1,7 +1,6 @@
 <?php
 include("core.php");
 require('./wordpress/wp-load.php');
-$album=$_GET["album"];
 $link_pasta = get_servidor().'wordpress/wp-content/uploads/wppa/';
 $sql     = 'SELECT id , ext , description FROM wp_wppa_photos WHERE album=1 ORDER BY id DESC';
 $links   = $wpdb->get_results( $sql );
@@ -34,8 +33,10 @@ $limite=$inicio+$imgpg;				 //... e o fim.
 
 echo '<div class="imagens">';
 for($i=$inicio; $i<$limite;$i++){
-	echo $imgs[$i];
+	if (isset($imgs[$i])) {
+		echo $imgs[$i];
 	}
+		}
 echo '</div>';
 /*
 $saida=array();

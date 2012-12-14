@@ -40,8 +40,7 @@
 	            <div class="conteudo">
                 	<div class="txt">
                     	<p>O maior encontro de negócios da Região Norte, dirigido à revendedores de materiais para construção, acabamento, revestimento e iluminação. Arquitetos, urbanistas, decoradores, designers, engenheiros, construtores e universitários.</p>
-						<p>Agregar valores para crescer mais; Encontrar novos e tradicionais clientes; Excelente oportunidade de negócios; Vitrine para ação promocional e merchandising; Lançamentos de produtos e serviços para construção.
-</p>
+						<p>Agregar valores para crescer mais; Encontrar novos e tradicionais clientes; Excelente oportunidade de negócios; Vitrine para ação promocional e merchandising; Lançamentos de produtos e serviços para construção.</p>
 						<p>Segundo o IBGE a Região Norte apresenta um dos maiores índices de crescimento econômico nos últimos anos comparado a outras regiões do país. Produto do crescimento industrial e comercial influenciando diretamente na renda per capita da população. Venha conhecer de perto este desenvolvimento.</p>
 						<p>Agregar valores para crescer mais; Encontrar novos e tradicionais clientes; Excelente oportunidade de negócios; Vitrine para ação promocional e merchandising; Lançamentos de produtos e serviços para construção</p>
                     </div>
@@ -83,7 +82,6 @@
         	<div class="centraliza">
         		<div class="conteudo">
                     
-                
                 </div>
         	</div>
         </div>
