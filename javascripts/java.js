@@ -1,3 +1,9 @@
+  $(window).load( function(){		
+	/* ------------ SLIDE JCYCLE ---------------------*/	
+	$("#slide").cycle({fx:"scrollRight"});
+	$("#slide_home").cycle({fx:"fade",timeout:1000});
+	
+});
 $(document).ready(function(){
 	$('.botao').not(".current").hover(
 		function(){
@@ -62,21 +68,3 @@ $(document).ready(function(){
 
 	$("#twits").tweet({template: "{text}{time}"});
 	});
-	
-	/* ------------ EXPOSITORES CARROUSEL ---------------------*/
-  $(window).load( function(){	
-  	$(".slide").jCarouselLite({
-      	btnNext: ".prox",
-      	btnPrev: ".prev",
-      	vertical: true,
-  		speed:800
-  	});
-		
-	
-
-	
-	/* ------------ SLIDE JCYCLE ---------------------*/	
-	$("#slide, #slide_home").cycle({fx:"fade"});
-	
-	
-});
