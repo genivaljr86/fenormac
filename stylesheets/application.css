@@ -91,7 +91,13 @@ body .pp_pic_holder {
 }
 #realizacao_conteudo {
   background-color: #fff;
-  height: 100px;
+  height: 125px;
+}
+#realizacao_conteudo #sind {
+  margin-left: 94px;
+}
+#realizacao_conteudo #faz {
+  margin-left: 315px;
 }
 /* CONTEUDO */
 #content #espaco {
@@ -125,10 +131,18 @@ body .pp_pic_holder {
   margin-left: 57px;
   background: url(../images/home/info_bk.png) no-repeat;
 }
+#content #home #logos {
+  margin: 12px 0 0 46px;
+  height: 146px;
+  overflow: hidden;
+}
+#content #home #logos img {
+  height: 144px;
+}
 #content #home #twitter {
   width: 166px;
   height: 142px;
-  margin: 316px 0 0 115px;
+  margin: 156px 0 0 115px;
   overflow: hidden;
 }
 #content #home #face {
@@ -167,6 +181,7 @@ body .pp_pic_holder {
   background: url(../images/outras/bk.png);
 }
 #content #outras .conteudo .txt {
+  height: 82px;
   padding: 242px 60px 0 60px;
 }
 #content #outras .conteudo .menu {

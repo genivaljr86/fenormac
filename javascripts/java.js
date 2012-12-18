@@ -76,7 +76,7 @@ $(document).ready(function(){
 
 	
 	/* ------------ SLIDE JCYCLE ---------------------*/	
-	$("#slide").cycle({fx:"scrollLeft"});
+	$("#slide, #slide_home").cycle({fx:"fade"});
 	
 	
 });

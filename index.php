@@ -22,7 +22,48 @@
                     	<iframe width="373" height="280" src="http://www.youtube.com/embed/gHUEWG_TEiQ" frameborder="0" allowfullscreen></iframe>
                     </div>
 	            </div>
-	    		<div class="coluna info">                	
+	    		<div class="coluna info">
+                    <div id="logos">
+                        <div id="slide_home">
+                            <img src="images/logos_expositores/1.jpg" alt="">
+                            <img src="images/logos_expositores/2.jpg" alt="">
+                            <img src="images/logos_expositores/3.jpg" alt="">
+                            <img src="images/logos_expositores/4.jpg" alt="">
+                            <img src="images/logos_expositores/5.jpg" alt="">
+                            <img src="images/logos_expositores/6.jpg" alt="">
+                            <img src="images/logos_expositores/7.jpg" alt="">
+                            <img src="images/logos_expositores/8.jpg" alt="">   
+                            <img src="images/logos_expositores/9.jpg" alt="">
+                            <img src="images/logos_expositores/10.jpg" alt="">
+                            <img src="images/logos_expositores/11.jpg" alt="">
+                            <img src="images/logos_expositores/12.jpg" alt="">   
+                            <img src="images/logos_expositores/13.jpg" alt="">
+                            <img src="images/logos_expositores/14.jpg" alt="">
+                            <img src="images/logos_expositores/15.jpg" alt="">
+                            <img src="images/logos_expositores/16.jpg" alt="">   
+                            <img src="images/logos_expositores/17.jpg" alt="">
+                            <img src="images/logos_expositores/18.jpg" alt="">
+                            <img src="images/logos_expositores/19.jpg" alt="">
+                            <img src="images/logos_expositores/20.jpg" alt="">
+                            <img src="images/logos_expositores/21.jpg" alt="">
+                            <img src="images/logos_expositores/22.jpg" alt="">
+                            <img src="images/logos_expositores/23.jpg" alt="">
+                            <img src="images/logos_expositores/24.jpg" alt="">
+                            <img src="images/logos_expositores/25.jpg" alt="">
+                            <img src="images/logos_expositores/26.jpg" alt="">
+                            <img src="images/logos_expositores/27.jpg" alt="">
+                            <img src="images/logos_expositores/28.jpg" alt="">
+                            <img src="images/logos_expositores/29.jpg" alt="">
+                            <img src="images/logos_expositores/30.jpg" alt="">
+                            <img src="images/logos_expositores/31.jpg" alt="">
+                            <img src="images/logos_expositores/32.jpg" alt="">
+                            <img src="images/logos_expositores/33.jpg" alt="">
+                            <img src="images/logos_expositores/34.jpg" alt="">
+                            <img src="images/logos_expositores/35.jpg" alt="">
+                            <img src="images/logos_expositores/36.jpg" alt="">
+                            <img src="images/logos_expositores/37.jpg" alt="">  
+                        </div>
+                    </div>                	
                 	<div id="twitter">
                     	<div id="twits"></div>
                     </div>
@@ -57,7 +98,7 @@
         	<div class="centraliza">
 	            <div class="conteudo">
                 	<div class="txt">
-                    	Lorem ipsum dolor sit amet, vestibulum provident, sed et senectus fermentum imperdiet. Consectetuer arcu suspendisse nibh urna. Amet non aenean nulla amet, elementum nunc placerat, massa sit posuere tincidunt quis, ipsum dui, urna vitae. Felis nulla enim. Egestas integer vestibulum pellentesque sed, cum nullam sem turpis ante, in diam, fusce orci id wisi eget quam. Phasellus lacinia pellentesque.
+                    	Conheça as edições anteriores da feira, desde a primeira.
                     </div>
                     <div class="menu">
                     	<img src="images/outras/2012/cartaz.jpg" alt="" >
@@ -100,7 +141,7 @@
         	<div class="centraliza">
         		<div class="conteudo">
                 	<div class="txt">
-                    	Lorem ipsum dolor sit amet, vestibulum provident, sed et senectus fermentum imperdiet. 
+                    	Deixe sua mensagem para os organizadores da feira.
                     </div>
                     <form action="" class="centraliza">
                     	<label for="nome"><img src="<?php servidor(); ?>images/contato/nome.png" alt=""></label>
@@ -215,9 +256,7 @@
         </div>
     </div>
     
-    <div id="patrocinadores_conteudo">
-	    
-	</div>
+    <div id="patrocinadores_conteudo"></div>
     
     </div>
     
@@ -229,6 +268,10 @@
     
     </div>
     <div id="realizacao_conteudo">
+        <div class="centraliza">
+            <a href=""><img src="images/organizacao/sind.jpg" alt="" id="sind"></a>
+            <a href=""><img src="images/organizacao/faz.jpg" alt="" id="faz"></a>
+        </div>
     </div>
     
     <?php include("contato_msg.php"); ?>

@@ -14,7 +14,7 @@ foreach($links as $link){
 	$j++;
 	}
 //Numero de Imagens por Página
-$imgpg=2;
+$imgpg=12;
 	
 //Descobrindo o numero de posts
 $numposts =$j;
@@ -26,7 +26,7 @@ if($pg2802==""){$pg2802=1;}
 
 $paginacao = new Paginacao;          //Criando Objeto para paginação, em seguida instanciamos...
 $paginacao->set_numposts($numposts); //... o número total de posts.
-$paginacao->set_porpg(2);            //... o número de posts por página.
+$paginacao->set_porpg($imgpg);            //... o número de posts por página.
 $paginacao->set_pg_atual($pg2802);   //... a pagina atual.
 $inicio=($pg2802*$imgpg)-$imgpg;  	 //Definindo inicio do loop...
 $limite=$inicio+$imgpg;				 //... e o fim.

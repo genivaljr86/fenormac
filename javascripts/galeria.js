@@ -30,7 +30,7 @@ $(document).ready(function(){
 				});
 			};
 			
-	$('#galeria .conteudo').load("galeria.php",function(){
+	$('#galeria .conteudo').load("galeria.php?pg=1",function(){
 		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:" ",deeplinking: false});
 		$('#galeria .paginacao span').click(function(){
 			var valor=$(this).attr('class');
