@@ -50,7 +50,7 @@ body .pp_pic_holder {
 }
 #header #logo_sindmaco {
   float: right;
-  margin-right: 156px;
+  margin-right: 118px;
   margin-top: 20px;
 }
 #header #redes {
@@ -189,20 +189,23 @@ body .pp_pic_holder {
   height: 522px;
   margin: 90px 0 0 133px;
 }
-#content #outras .conteudo .menu #i2011 {
+#content #outras .conteudo .menu #i2005 {
+  margin-left: 2px;
+}
+#content #outras .conteudo .menu #i2007 {
   margin-left: 48px;
 }
 #content #outras .conteudo .menu #i2009 {
-  margin-left: 55px;
+  margin-left: 52px;
 }
-#content #outras .conteudo .menu #i2007,
-#content #outras .conteudo .menu #i2005 {
+#content #outras .conteudo .menu #i2011,
+#content #outras .conteudo .menu #i2013 {
   margin-top: 85px;
 }
-#content #outras .conteudo .menu #i2007 {
+#content #outras .conteudo .menu #i2011 {
   margin-left: 113px;
 }
-#content #outras .conteudo .menu #i2005 {
+#content #outras .conteudo .menu #i2013 {
   margin-left: 50px;
 }
 #content #outras .conteudo .fotos {

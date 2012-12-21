@@ -5,11 +5,8 @@
     <div id="header">
     	<div class="centraliza">
 		<?php include("menu.php");  ?>
-        	<a href="http://www.sindmaco.com.br" target="_blank"/><img src="<?php servidor(); ?>images/sindmaco.jpg" alt="" id="logo_sindmaco"></a>
-            <div id="redes">           		
-            	<a href=""><img src="images/face_off.png" alt="" class="botao"></a>
-                <a href=""><img src="images/tt_off.png" alt="" class="botao"></a>
-            </div>
+        	<a href="http://www.sindmaco.com.br" target="_blank"/><img src="<?php servidor(); ?>images/sindmaco.png" alt="" id="logo_sindmaco"></a>
+            
         </div>
     </div>
     <div id="content">
@@ -101,11 +98,11 @@
                     	Conheça as edições anteriores da feira, desde a primeira.
                     </div>
                     <div class="menu">
-                    	<img src="images/outras/2012/cartaz.jpg" alt="" >
-                        <a href="images/outras/2011/1.jpg" rel="prettyPhoto[2011]"><img src="<?php servidor(); ?>images/outras/2011/cartaz.jpg" alt="" id="i2011"></a>
+                        <img src="images/outras/2005/cartaz.jpg" alt="" id="i2005">
+                        <img src="images/outras/2007/cartaz.jpg" alt="" id="i2007" >
                     	<a href="images/outras/2009/1.jpg" rel="prettyPhoto[2009]"><img src="<?php servidor(); ?>images/outras/2009/cartaz.jpg" alt="" id="i2009"></a>
-                        <img src="images/outras/2007/cartaz.jpg" alt="" id="i2007">
-                    	<img src="images/outras/2005/cartaz.jpg" alt="" id="i2005">
+                        <a href="images/outras/2011/1.jpg" rel="prettyPhoto[2011]"><img src="<?php servidor(); ?>images/outras/2011/cartaz.jpg" alt="" id="i2011"></a>
+                        <img src="images/outras/2012/cartaz.jpg" alt="" id="i2013">
                     </div>
                    	<div class="fotos">
                     	<a href="images/outras/2009/2.jpg" rel="prettyPhoto[2009]"></a>
